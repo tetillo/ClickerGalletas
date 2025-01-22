@@ -7,6 +7,12 @@
         <VerticalStackLayout
             Padding="30,0"
             Spacing="25">
+
+            <Label
+                Text="Bienvenido al clicker de galletas"
+                Style="{StaticResource SubHeadline}"
+                SemanticProperties.HeadingLevel="Level2"
+                SemanticProperties.Description="Welcome to dot net Multi platform App U I" />
             <ImageButton
                 Source="galleta.png"
                 HeightRequest="185"
@@ -22,11 +28,7 @@
                 Style="{StaticResource Headline}"
                 SemanticProperties.HeadingLevel="Level1" />
 
-            <Label
-                Text="Bienvenido al clicker de galletas"
-                Style="{StaticResource SubHeadline}"
-                SemanticProperties.HeadingLevel="Level2"
-                SemanticProperties.Description="Welcome to dot net Multi platform App U I" />
+            
 
 
         </VerticalStackLayout>
