@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <ImageButton
+                Source="galleta.png"
+                HeightRequest="185"
+                Aspect="AspectFit"
+                 x:Name="Galletabutton"
+                Clicked="OnCounterClicked"
+                SemanticProperties.Hint="Counts the number of times you click"
+                SemanticProperties.Description="dot net bot in a hovercraft number nine" />
+
+            <Label
+                x:Name="GalletaCountLabel"
+                Text="Galleta clickada veces: 0"
+                Style="{StaticResource Headline}"
+                SemanticProperties.HeadingLevel="Level1" />
+
+            <Label
+                Text="Bienvenido al clicker de galletas"
+                Style="{StaticResource SubHeadline}"
+                SemanticProperties.HeadingLevel="Level2"
+                SemanticProperties.Description="Welcome to dot net Multi platform App U I" />
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
